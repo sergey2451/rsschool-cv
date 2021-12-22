@@ -13,7 +13,7 @@ I enjoy learning new material and putting it into practice.
 * Git, GitHub
 * Figma
 ## Code Example
-
+`const greet = () => 'hello world!';`
 ## Experience
 
 ## Education

@@ -8,7 +8,10 @@
 I'm 24 years old, and I want to become a junior front-end developer. 
 I enjoy learning new material and putting it into practice.
 ## Skills
-
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* Figma
 ## Code Example
 
 ## Experience

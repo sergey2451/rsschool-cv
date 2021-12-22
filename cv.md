@@ -15,7 +15,9 @@ I enjoy learning new material and putting it into practice.
 ## Code Example
 `const greet = () => 'hello world!';`
 ## Experience
-
+...
 ## Education
-
+**2014-2019** Brest State Technical University
+**2017** General English Course at Elementary level CERF Level A1
+**2021-now** Rolling Scopes School
 ## English

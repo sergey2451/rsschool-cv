@@ -87,7 +87,6 @@ body {
 .section {
 	width: calc(50% - 20px);
 	padding: 30px;
-	padding-bottom: 30px;
 	border-bottom: 2px solid #704300;
 }
 
@@ -152,29 +151,24 @@ body {
 	color: #7cb7df;
 }
 
-.github-link {
+.github-link, .courses-link {
 	font-weight: 700;
 	text-decoration: none;
 	color: #704300;
 	transition: color .5s;
 }
 
-.github-link:hover {
+.github-link:hover, .courses-link:hover {
 	color: #7cb7df;
 }
 
-.contacts-item {
+.contacts-item, .skills-item, .courses-item {
 	padding-top: 10px;
 	list-style-type: circle;
 }
 
 ul {
 	padding-left: 20px;
-}
-
-.skills-item {
-	padding-top: 10px;
-	list-style-type: circle;
 }
 
 

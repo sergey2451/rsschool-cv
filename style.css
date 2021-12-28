@@ -86,7 +86,7 @@ body {
 
 .section {
 	width: calc(50% - 20px);
-	padding: 15px;
+	padding: 30px;
 	padding-bottom: 30px;
 	border-bottom: 2px solid #704300;
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .email-link:hover {
-	color: #AFCFE4;
+	color: #7cb7df;
 }
 
 .github-link {
@@ -160,13 +160,22 @@ body {
 }
 
 .github-link:hover {
-	color: #AFCFE4;
+	color: #7cb7df;
 }
 
 .contacts-item {
 	padding-top: 10px;
+	list-style-type: circle;
 }
 
+ul {
+	padding-left: 20px;
+}
+
+.skills-item {
+	padding-top: 10px;
+	list-style-type: circle;
+}
 
 
 

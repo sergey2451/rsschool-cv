@@ -41,7 +41,6 @@ body {
 }
 
 .header {
-
 	background-color: #AFCFE4;
 }
 
@@ -107,6 +106,13 @@ body {
 .my-image {
 	width: 300px;
 	height: 300px;
+	transition: .5s;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.my-image:hover {
+	filter: brightness(90%);
 }
 
 .profile-title {
@@ -121,7 +127,7 @@ body {
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 300;
-	letter-spacing: 1px;
+	letter-spacing: 1.5px;
 }
 
 .profile-titles {
@@ -177,6 +183,26 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+.pre {
+	padding: 0;
+	margin: 0;
+}
+
+
+pre {
+	display: block;
+	font-family: monospace;
+	white-space: pre;
+}
 
 
 

@@ -157,18 +157,18 @@ body {
 	color: #7cb7df;
 }
 
-.github-link, .courses-link {
+.github-link, .courses-link, .projects-link {
 	font-weight: 700;
 	text-decoration: none;
 	color: #704300;
 	transition: color .5s;
 }
 
-.github-link:hover, .courses-link:hover {
+.github-link:hover, .courses-link:hover, .projects-link:hover {
 	color: #7cb7df;
 }
 
-.contacts-item, .skills-item, .courses-item {
+.contacts-item, .skills-item, .courses-item, .projects-item {
 	padding-top: 10px;
 	list-style-type: circle;
 }

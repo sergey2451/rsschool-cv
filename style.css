@@ -1,0 +1,215 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+/*-----------HEADER-----------*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #edeee7;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header {
+	background-color: #AFCFE4;
+	min-height: 50px;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1.3px;
+	color: #704300;
+	font-size: 20px;
+	transition: color .5s;
+}
+
+.nav-link:hover {
+	color: #ffffff;
+}
+
+/*-----------MAIN-----------*/
+
+.main {
+	min-height: 100px;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.section {
+	width: calc(50% - 20px);
+	padding: 30px;
+	border-bottom: 2px solid #704300;
+}
+
+@media (max-width: 768px) {
+	.section {
+		width: 100%;
+	}
+}
+
+.section-profile {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+	border-bottom: 5px solid #704300;
+}
+
+.my-image {
+	width: 300px;
+	height: 300px;
+	transition: .5s;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.my-image:hover {
+	filter: brightness(90%);
+}
+
+.profile-title {
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: #704300;
+}
+
+.profile-subtitle {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+}
+
+.profile-titles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding-top: 50px;
+}
+
+.section-title {
+	font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+	color: #704300;
+}
+
+.email-link {
+	font-weight: 700;
+	text-decoration: none;
+	color: #704300;
+	transition: color .5s;
+}
+
+.email-link:hover {
+	color: #7cb7df;
+}
+
+.github-link, .courses-link, .projects-link {
+	font-weight: 700;
+	text-decoration: none;
+	color: #704300;
+	transition: color .5s;
+}
+
+.github-link:hover, .courses-link:hover, .projects-link:hover {
+	color: #7cb7df;
+}
+
+.contacts-item, .skills-item, .courses-item, .projects-item {
+	padding-top: 10px;
+	list-style-type: circle;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+.education, .english {
+	border-bottom: 0;
+}
+
+pre {
+	white-space: normal;
+	padding-top: 40px;
+}
+
+/*-----------FOOTER-----------*/
+
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer {
+	padding: 20px;
+	background-color: #AFCFE4;
+}
+
+.rss-logo {
+	height: 45px;
+	width: 121px;
+	background-image: url(./assets/svg/rss.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.github {
+	line-height: 45px;
+	padding-left: 15px;
+}

@@ -207,6 +207,16 @@ pre {
 	background-image: url(./assets/svg/rss.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
+	transition: .5s;
+}
+
+.rss-logo:hover {
+	height: 45px;
+	width: 121px;
+	background-image: url(./assets/svg/rss.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(90%);
 }
 
 .github {

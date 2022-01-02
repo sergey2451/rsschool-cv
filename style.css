@@ -42,6 +42,7 @@ body {
 
 .header {
 	background-color: #AFCFE4;
+	min-height: 50px;
 }
 
 .container {
@@ -186,67 +187,29 @@ pre {
 	padding-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----------FOOTER-----------*/
 
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .footer {
-	min-height: 100px;
+	padding: 20px;
 	background-color: #AFCFE4;
+}
+
+.rss-logo {
+	height: 45px;
+	width: 121px;
+	background-image: url(./assets/svg/rss.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.github {
+	line-height: 45px;
+	padding-left: 15px;
 }

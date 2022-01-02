@@ -181,28 +181,11 @@ ul {
 	border-bottom: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.pre {
-	padding: 0;
-	margin: 0;
-}
-
-
 pre {
-	display: block;
-	font-family: monospace;
-	white-space: pre;
+	white-space: normal;
+	padding-top: 40px;
 }
+
 
 
 
